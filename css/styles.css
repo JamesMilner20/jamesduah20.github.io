@@ -1,4 +1,21 @@
-#myname {
+body {
+  background-color: #E9EBEE;
+}
+
+#me {
+  background-image: url("../images/me.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 80%;
+  padding-bottom: 20%;
+}
+
+#james {
   float: right;
-  margin-top: 80%;
+  font-size: bold;
+}
+
+#aboutme {
+  font-style: normal;
+  font-family: sans-serif;
 }
