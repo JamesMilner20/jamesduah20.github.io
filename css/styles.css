@@ -6,8 +6,7 @@ body {
   background-image: url("../images/me.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
-  padding-top: 80%;
-  padding-bottom: 20%;
+  padding-top: 100%;
 }
 
 #james {
@@ -18,4 +17,10 @@ body {
 #aboutme {
   font-style: normal;
   font-family: sans-serif;
+}
+#contactme {
+  font-family: serif;
+  font-size: 120%;
+  background-color: #84E2AA;
+  font-weight: bold;
 }
