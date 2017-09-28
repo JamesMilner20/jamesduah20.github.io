@@ -1,71 +1,100 @@
 <!DOCTYPE html>
+
 <head>
-  <link href="css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
   <title>James Portfolio</title>
 </head>
-<body>
-  <div class="container">
-    <div class="header">
-        <h1>"In theory, theory and practice are the same. In practice, they’re not."- Yoggi Berra</h1>
-    </div>
-    <div class="row">
-        <div class="col-md-6">
-            <div class="well">
-              <div  id="me">
-                <h2 id="james">James Kwaku Duah</h2>
-              </div>
-            </div>
-        </div>
-      <div class="col-md-6">
-        <div class="well">
-          <h2>About Me</h2>
-            <p id="aboutme">Putting into practice, my acquired knowledge and experience, and working in new environments
-where I can learn new things and progress, is what I always desire. I have no doubt that I would be
-assets that would affect your organization positively, as I adapt quickly to change needs of our
-clients so as to keep the organization growing and this is one core reason I am studing coding</p>
-          <h3>Background</h3>
-            <ul>
-              <li>XO Group of Companies (XO Cleaning, XO travels, XO Logistics, Inflex Petroleum) - Research and Development Officer</li>
-              <li>TNS Ghana - Market Research Assistant – (Data Collection)</li>
-              <li>Corporate Hills Investment Limited - </li>
-              <li>Vanguard Life Assurance Company Limited - Assistant Commissions/Church Life Officer</li>
-            </ul>
-            <h3>Skills and Abilities</h3>
-            <ol>
-              <li>Problem solving and decision making abilities; Technical insight; Analytical skills and good eye for detail</li>
-              <li>Computer genius with variety of ability to software packages including Microsoft word, excel, power point, Microsoft Outlook and web developing</li>
-              <li>Work effectively under pressure and where demanding deadlines are present and have the ability to establish achievable goals and objectives</li>
-              <li>Good presentation, communication skills and Adapt quickly and effectively in accordance with business needs and can work independently or in a team.</li>
-            </ol>
-        </div>
+
+<body data-spy="scroll" data-target="navbar-collapse">
+
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="navbar-collapse">
+          <span class="sr-only">Toggle Navigation</span>
+
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
       </div>
-    </div>
-    <div class="row">
-      <div id="projectsdone">
-        <h3>Projects Done</h3>
-        <p>Below is a list of projects i have done. In my projects, my main focus is producing professional masterpieces that when accessed worldwide will project the image of my clients in a very professional way.</p>
-        <ol>
-          <li><a href="branching-and-Merging-of-code.github.io">Branching and merging of Code</a> is one of the first projects i did just to teach some people including myself how to use github in coding. I used just basic html and css to do this</li>
-          <li><a href="https://jamesmilner20.github.io/my-first-webpage/">My first webpage was</a> when I was learning coding how to code, i needed to create this page as a tradition for all beginners who want to learn how to code</li>
-        </ol>
-      </div>
-    </div>
-    <div class="row">
-        <div class="panel panel-default">
-          <div class="">
-            <div class="panel-heading">
-              <h2 class="panel-title">Contact Me</h2>
-            </div>
-          <div class="panel-body">
-          <p>Contact me via email at jamesduah20@gmail.com.</p>
-          <p>You can also contact me via my cellphone on (+233) 050 0078 196</p>
-        </div>
-        <div class="panel-footer">
-          <p>Thank you for checking my webpage. If u like what you see check out <a href="https://www.facebook.com/james.k.duah">my facebook page</a></p>
-        </div>
-      </div>
+
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#div1">Home</a></li>
+          <li><a href="#div2">About Me</a></li>
+          <li><a href="#div3">Projects</a></li>
+          <li><a href="#div4">Contact Me</a></li>
+        </ul>
+
       </div>
     </div>
   </div>
+  </div>
+
+  <div class="row toprow" id="div1">
+    <div class="container">
+      <h1>Hi there, Welcome to my page</h1>
+      <div class="col-md-8 me">
+        <img src="images\me.jpg" alt="Image of James Duah">
+        <h1>James Kwaku Duah</h1>
+      </div>
+      <div class="col-md-4 me">
+        <h2>"In theory, theory and practice are the same. In practice, they’re not."- Yoggi Berra</h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="midrow">
+    <div class="container" id="div2">
+      <div class="col-md-4">
+        <h2>About Me</h2>
+        <p id="aboutme">Putting into practice, my acquired knowledge and experience, and working in new environments where I can learn new things and progress, is what I always desire. I have no doubt that I would be assets that would affect your organization positively,
+          as I adapt quickly to change needs of our clients so as to keep the organization growing and this is one core reason I am studing coding</p>
+      </div>
+      <div class="col-md-8">
+        <img id="aboutmeimg" src="images\aboutme.jpg" alt="An about me image">
+      </div>
+
+      <div class="skills">
+        <h3>Background</h3>
+        <ul>
+          <li>XO Group of Companies (XO Cleaning, XO travels, XO Logistics, Inflex Petroleum) - Research and Development Officer</li>
+          <li>TNS Ghana - Market Research Assistant – (Data Collection)</li>
+          <li>Corporate Hills Investment Limited - </li>
+          <li>Vanguard Life Assurance Company Limited - Assistant Commissions/Church Life Officer</li>
+        </ul>
+        <h3>Skills and Abilities</h3>
+        <ol>
+          <li>Problem solving and decision making abilities; Technical insight; Analytical skills and good eye for detail</li>
+          <li>Computer genius with variety of ability to software packages including Microsoft word, excel, power point, Microsoft Outlook and web developing</li>
+          <li>Work effectively under pressure and where demanding deadlines are present and have the ability to establish achievable goals and objectives</li>
+          <li>Good presentation, communication skills and Adapt quickly and effectively in accordance with business needs and can work independently or in a team.</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="div3">
+    <h3>Projects</h3>
+    <p>Below is a list of projects i have done. In my projects, my main focus is producing professional masterpieces that when accessed worldwide will project the image of my clients in a very professional way.</p>
+    <ol>
+      <li><a href="branching-and-Merging-of-code.github.io">Branching and merging of Code</a> is one of the first projects i did just to teach some people including myself how to use github in coding. I used just basic html and css to do this</li>
+      <li><a href="https://jamesmilner20.github.io/my-first-webpage/">My first webpage was</a> when I was learning coding how to code, i needed to create this page as a tradition for all beginners who want to learn how to code</li>
+    </ol>
+  </div>
+
+  <div class="container">
+    <div class="footer">
+      <div id="div4">
+        <h2>Contact Me</h2>
+        <p>Contact me via email at jamesduah20@gmail.com.</p>
+        <p>You can also contact me via my cellphone on (+233) 050 0078 196</p>
+        <p>Thank you for checking my webpage. If u like what you see check out <a href="https://www.facebook.com/james.k.duah">my facebook page</a></p>
+      </div>
+    </div>
+  </div>
+
 </body>
